@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "cdk"
+		},
+		{
+			"path": "consumer"
+		}
+	]
+}

@@ -1,15 +1,20 @@
 [tool.poetry]
-name = "ynab-integrations"
+name = "ynab-integrations-cdk"
 version = "0.1.0"
 description = ""
 authors = ["Gerald Lau <gerald.lau.95@gmail.com>"]
 license = "GPL3"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-black = "^22.6.0"
+python = "^3.9"
+aws-lambda-powertools = "^1.28.0"
+"aws-cdk.aws-lambda-python" = "^1.172.0"
+exceptiongroup = "1.0.0rc4"
+"aws-cdk.aws-lambda-event-sources" = "^1.172.0"
 
 [tool.poetry.dev-dependencies]
+black = "^22.8.0"
+isort = "^5.10.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
